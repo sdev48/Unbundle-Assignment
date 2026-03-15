@@ -1,0 +1,348 @@
+@media (max-width : 1450px) {
+    .store-details .store-image {
+        max-width: 300px;
+    }
+
+    .location-card {
+        width: 160px;
+        height: 66px;
+    }
+
+    .location-icon img {
+        width: 43px;
+        height: 43px;
+    }
+
+    .location-detail .location-name {
+        font-size: 16px;
+    }
+
+    .location-detail .clinic-count {
+        font-size: 13px;
+    }
+
+    .review-cards-row .icon-box {
+        width: 60%;
+    }
+}
+@media (min-width : 1400px) {
+
+    .treatment-cards,
+    .patient-result-container {
+        margin: 0 auto;
+    }
+}
+@media (max-width : 1350px) {
+    .guidance-card-desktop-title {
+        font-size: 14px;
+    }
+
+    .guidance-card-desktop-description {
+        font-size: 12px;
+    }
+    
+    .terms-input-box {
+        font-size: 11px;
+    }
+}
+@media (max-width : 1150px) {
+    .store-details .store-image {
+        max-width: 250px;
+    }
+
+    .location-card {
+        width: 140px;
+        height: 56px;
+    }
+
+    .location-icon img {
+        width: 33px;
+        height: 33px;
+    }
+
+    .location-detail .location-name {
+        font-size: 13px;
+    }
+
+    .location-detail .clinic-count {
+        font-size: 11px;
+    }
+    .review-cards-row .icon-box {
+        width: 80%;
+    }
+}
+@media (max-width : 1000px) {
+    .store-details .store-image {
+        max-width: 200px;
+    }
+
+    .location-card {
+        width: 120px;
+        height: 40px;
+    }
+
+    .location-icon img {
+        width: 23px;
+        height: 23px;
+    }
+
+    .location-detail .location-name {
+        font-size: 11px;
+    }
+
+    .location-detail .clinic-count {
+        font-size: 9px;
+    }
+    .review-cards-row .icon-box {
+        width: 90%;
+    }
+
+    .google-icon-box .google-icon {
+        width: 48px;
+    }
+
+    .rating-count-box .rating-count {
+        font-size: 20px;
+    }
+
+    .star-with-review .left-box-star {
+        width: 24px;
+        height: 24px;
+    }
+    .image-form-container .hero-image {
+        flex: 2;
+    }
+}
+@media (max-width : 820px) {
+
+    /* FEATURE SECTION RESPONSIVENESS */
+    .feature-container .feature-cards {
+        padding: 0 5px;
+    }
+
+    .feature-cards {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .feature-image {
+        order: 1;
+    }
+
+    .feature-details {
+        order: 2;
+        padding: 0;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .feature-details h4 {
+        font-size: 14px;
+    }
+
+    .hero-desktop {
+        display: none;
+    }
+
+    /* HERO IMAGE & GUIDANCE FORM SHOWING FOR MOBILE SCREEN */
+    .hero-mobile {
+        display: block;
+    }
+
+    .guidance-card-mobile {
+        display: block;
+    }
+}
+
+
+@media (max-width : 768px) {
+
+    /* NAVBAR RESPONSIVENESS */
+    .nav-buttons ul li .appoint-button {
+        display: none;
+    }
+
+    .navbar-container .logo {
+        width: 90px;
+    }
+
+    .nav-buttons ul li button {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+
+
+    /* TREATMENT CARD RESPONSIVENESS  */
+
+    .treatment-cards {
+        gap: 16px;
+        padding: 0 10px;
+    }
+
+    .treatment-card {
+        flex-direction: column;
+        max-width: 320px;
+        width: 100%;
+    }
+
+    .card-image {
+        width: 100%;
+    }
+
+    .card-content {
+        width: 100%;
+        padding: 16px;
+    }
+
+    .price {
+        font-size: 20px;
+    }
+
+    .consult-btn {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    /* TESTIMONIALS */
+
+    .reviews-container {
+        padding: 20px;
+    }
+
+    .review-cards-row {
+        flex-direction: column;
+        gap: 30px;
+        align-items: stretch;
+    }
+
+    .review-cards-row .icon-box {
+        border-right: none;
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .google-icon-box .google-icon {
+        width: 78px;
+    }
+
+    .review-card {
+        width: 260px;
+        min-width: 260px;
+        padding: 16px;
+        scroll-snap-align: start;
+    }
+
+    .slider-wrapper {
+        width: 100%;
+    }
+
+    .user-image {
+        width: 45px;
+        height: 45px;
+    }
+
+    .rating-count-box .rating-count {
+        font-size: 24px;
+    }
+
+
+    /* Location section */
+
+    .locations-container {
+        margin-bottom: 20px;
+    }
+    
+    .locations-container .title {
+        text-align: center;
+    }
+
+    .locations-container .description {
+        text-align: center;
+    }
+
+    .locations-detail {
+        flex-direction: column;
+        padding: 0;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+    .locations-cards {
+        place-items: center;
+    }
+
+    .location-card {
+        width: 170px;
+        height: 86px;
+    }
+
+    .location-icon img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .location-detail .location-name {
+        font-size: 15px;
+    }
+
+    .location-detail .clinic-count {
+        font-size: 12px;
+    }
+
+    .store-details {
+        margin-top: 20px;
+        padding: 0;
+        display: flex;
+        gap: 15px;
+    }
+
+    .store-details .store-image {
+        min-width: 300px;
+        max-width: 400px;
+    }
+
+
+    /* FOOTER SECTION  */
+
+    .footer-container {
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        padding: 15px 12px;
+        position: relative;
+    }
+
+    .logo-container {
+        position: absolute;
+        top: 15%;
+    }
+
+    .logo-holder img {
+        width: 120px;
+    }
+
+    .to-be-remove {
+        display: none;
+    }
+
+    .terms-link-box {
+        border-bottom: none;
+        display: inline;
+    }
+
+    .term-links {
+        flex-direction: column;
+        align-items: end;
+    }
+
+    .copyright-text {
+        border-top: 1px solid #FFFFFF;
+        padding: 15px 0px;
+        text-align: center;
+    }
+
+    .temp-footer-info {
+        display: block;
+    }
+}
